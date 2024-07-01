@@ -1,0 +1,9 @@
+apiVersion: demo.example.com/v1alpha1
+kind: DemoVolume
+metadata:
+  labels:
+    app.kubernetes.io/name: app-monitoring-crd
+    app.kubernetes.io/managed-by: kustomize
+  name: demovolume-sample
+spec:
+  # TODO(user): Add fields here
