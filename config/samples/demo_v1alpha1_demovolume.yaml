@@ -6,4 +6,5 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
   name: demovolume-sample
 spec:
-  # TODO(user): Add fields here
+  name: demo-volume
+  size: 10
